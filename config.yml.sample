@@ -1,0 +1,23 @@
+## Set this variable to match your AWS credentials
+access_key: XXXX-PUT-HERE-YOUR-AWS-KEY-XXXXXX
+secret_access_key: XXX-AND-HERE-YOU-PUT-YOUR-SECRET-XXXXXXX
+
+## Include on this list only your admin users
+logins:
+  - david.gonzalez
+  - gabriel.ferreira
+  - leandro.moraes
+  - nathan.santos
+  - paulo.ledo
+  - rafael.pires
+  - victor.oliveira
+  - wesley.silva
+
+## The program will set AWS Aliases in IAM. 
+# Try to choose some names and if the first
+# is not available, the script will try the next.
+account_aliases:
+  - my-first-alternative
+  - my-other-alternative
+
+
